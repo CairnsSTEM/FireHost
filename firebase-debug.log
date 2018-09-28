@@ -1,0 +1,19 @@
+[debug] [2018-09-18T23:50:51.718Z] ----------------------------------------------------------------------
+[debug] [2018-09-18T23:50:51.721Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RitchieM\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-09-18T23:50:51.721Z] CLI Version:   4.2.0
+[debug] [2018-09-18T23:50:51.721Z] Platform:      win32
+[debug] [2018-09-18T23:50:51.721Z] Node Version:  v10.9.0
+[debug] [2018-09-18T23:50:51.722Z] Time:          Wed Sep 19 2018 09:50:51 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2018-09-18T23:50:51.722Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-18T23:50:51.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-18T23:50:51.741Z] > authorizing via signed-in user
+[debug] [2018-09-18T23:50:51.743Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cairnsstemhub-5a9af  
+ 
+[debug] [2018-09-18T23:50:52.414Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1047:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:629:8)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
